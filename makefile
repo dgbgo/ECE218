@@ -4,7 +4,7 @@ CXXFLAGS = -std=c++17
 
 TARGET = bigint
 
-SRCS = BigInts.cpp support.cpp
+SRCS = bigint.cpp BigInts.cpp support.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
