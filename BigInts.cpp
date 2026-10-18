@@ -1,4 +1,4 @@
-#include "/home/diego/Education/ECE218/Libs/BigInts.h"
+#include "BigInts.h"
 
 std::ostream& BigInt::print(std::ostream& out){
 	char printSign = (this->sign)? '-' : '+';
