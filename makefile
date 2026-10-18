@@ -2,7 +2,7 @@ CXX = g++
 
 CXXFLAGS = -std=c++17
 
-TARGET = bigint.o
+TARGET = bigint
 
 SRCS = bigint.cpp support.cpp
 
