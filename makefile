@@ -1,6 +1,6 @@
 CXX = g++
 
-CXXFLAGS = -std=c++17
+CXXFLAGS = -std=c++17 -I. -MMD -MP
 
 TARGET = bigint
 
